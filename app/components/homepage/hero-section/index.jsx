@@ -22,16 +22,15 @@ function HeroSection() {
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
-          <h1 className="text-3xl font-bold leading-10 text-theme-primary md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Hello <br />
-            I am {' '}
-            <span className=" text-darkblue-500">{personalData.name}</span>
-            {` , I'm a Professional `}
-            <span className=" text-theme-accent">{personalData.designation}</span>
-            .
+          <h1 className="text-2xl font-bold leading-8 text-theme-primary md:text-3xl md:leading-10 md:font-extrabold lg:text-[2.15rem] lg:leading-[3rem]">
+            John Tan a software engineer transitioning to social service, driven by a commitment to youth engagement and community development.
           </h1>
 
-          <div className="my-12 flex items-center gap-5">
+          <p className="mt-3 md:mt-4 max-w-2xl text-sm leading-6 text-theme-secondary md:text-base md:leading-7">
+            With a background in software engineering, I bring a unique blend of strategic thinking and strong problem-solving skills to the social service sector. My passion lies in fostering meaningful youth engagement and facilitating impactful programs. I am seeking opportunities to apply my skills in community outreach initiatives and volunteer enablement, aiming to make a tangible difference in the lives of others and help foster positive community impact.
+          </p>
+
+          <div className="my-8 md:my-10 lg:my-12 flex items-center gap-5">
             <Link
               href={personalData.github}
               target='_blank'
